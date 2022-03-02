@@ -65,7 +65,18 @@ Camera
 
 ![image](https://user-images.githubusercontent.com/5110708/156351790-4c2cc289-2fa8-49e3-a80b-bdc95f3844b6.png)
 
+ちなみにこのあたりのパラメータはエディタ上で（Runしなくても）リアルタイムで反映されるので楽しい。
 
+``Intensity`` を、ぐっと 9ぐらい まで上げてみています。
+
+![image](https://user-images.githubusercontent.com/5110708/156352494-962c9721-6ca9-4944-9722-2891f571456b.png)
+
+実行すると、こんな感じです。
+
+![image](https://user-images.githubusercontent.com/5110708/156352621-aa429248-b464-41fa-8f46-e4deb0725eda.png)
+
+
+ShaderGraph についての詳細はまたの機会にします。
 
 
 スクリプトとしては ``UniversalAdditionalCameraData.cs`` 
