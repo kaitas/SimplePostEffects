@@ -41,6 +41,8 @@ Camera
 - [x] Dithering
 - [ ] Ocullusion Culling (check off)
 
+`Background color`を `Solid Color` で黒などにしておくのは大事かもしれない。
+
 ![image](https://user-images.githubusercontent.com/5110708/156348496-eed2c1fb-679c-4b67-8f08-a0fcc278a18a.png)
 
 カメラの下には ``Postprocess`` という名前のGameobject、``Volume`` → ``Global Volume`` で作成できる。
@@ -102,3 +104,7 @@ public sealed class PostEffectFeature : ScriptableRendererFeature
 
 } // namespace UrpTestbed
 ```
+
+# ちなみに UVChecker も ShaderGraph で作られている
+
+![image](https://user-images.githubusercontent.com/5110708/156351044-bb6870b4-02bd-4732-9110-56d58aedda05.png)
