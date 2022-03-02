@@ -36,9 +36,27 @@ HDRなShaderも簡単やん
 
 ## シーンを分解してみる
 
-カメラの下には ``Postprocess`` Gameobject
+Camera
+- [V] Post Processing
+- [V] Dithering
+- [ ] Ocullusion Culling (check off)
+
+![image](https://user-images.githubusercontent.com/5110708/156348496-eed2c1fb-679c-4b67-8f08-a0fcc278a18a.png)
+
+カメラの下には ``Postprocess`` という名前のGameobject、``Volume`` → ``Global Volume`` で作成できる。
+
+`Profile` には ``Assets/Misc/Postprocess.asset`` がアタッチされており、
+
+- [V] Bloom
+- [V] Tonemapping
+- [V] Chromatic Aberration (色収差)
+- [V] Shadows Midtones Highlights
+
+が設定されている。
+
 
 ![image](https://user-images.githubusercontent.com/5110708/156345455-c719e6a7-b765-4e7c-b555-31ba98232feb.png)
+
 
 スクリプトとしては ``UniversalAdditionalCameraData.cs`` 
 
