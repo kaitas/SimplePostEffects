@@ -75,8 +75,11 @@ Camera
 
 ![image](https://user-images.githubusercontent.com/5110708/156352621-aa429248-b464-41fa-8f46-e4deb0725eda.png)
 
+## ShaderGraph と スクリプト について 
 
-ShaderGraph についての詳細はまたの機会にします。
+ShaderGraph についての詳細はまたの機会にしますが、見よう見まねで作ることができそうな感じ。
+
+左上の保存をするのを忘れずに。これはリアルタイム反映されないのかな？
 
 
 スクリプトとしては ``UniversalAdditionalCameraData.cs`` 
@@ -124,6 +127,8 @@ public sealed class PostEffectFeature : ScriptableRendererFeature
 } // namespace UrpTestbed
 ```
 
-# ちなみに UVChecker も ShaderGraph で作られている
+## ちなみに UVChecker も ShaderGraph で作られている
+
+かっけえ
 
 ![image](https://user-images.githubusercontent.com/5110708/156351044-bb6870b4-02bd-4732-9110-56d58aedda05.png)
