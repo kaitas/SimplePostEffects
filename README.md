@@ -56,12 +56,16 @@ Camera
 
 が設定されている。
 
+たとえば ``Bloom`` なら
+- [x] Threshold : 0
+- [x] Intensity : 0.4
+- [x] Scatter : 0.9
 
+という感じ。
 
 ![image](https://user-images.githubusercontent.com/5110708/156351790-4c2cc289-2fa8-49e3-a80b-bdc95f3844b6.png)
 
 
-![image](https://user-images.githubusercontent.com/5110708/156345455-c719e6a7-b765-4e7c-b555-31ba98232feb.png)
 
 
 スクリプトとしては ``UniversalAdditionalCameraData.cs`` 
