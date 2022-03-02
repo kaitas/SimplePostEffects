@@ -1,15 +1,15 @@
 # SimplePostEffects
-[keijiro神の URP SimplePostEffects](https://github.com/kaitas/SimplePostEffects)をみて勉強している
+[keijiro神の URP SimplePostEffects](https://github.com/kaitas/SimplePostEffects)をみて、新しいUnity2021でのShaderGraphとPosteffectについて勉強してみました。
 
 本家のリポジトリにはREADMEがなかったので、以下は独自に分解してみた解説です。
 
 ## 環境
 
-- Unity2021.2.13f1
+- Unity2021.2.13f1 (Windows版で実験しています)
 
-## ShaderGraphを試してみる
+## (まずはデモ)ShaderGraphを試してみる
 
-InverseをMaterialのShaderGraphのOneMinusで書いているのでRemapしてみたよ！
+とりあえず本家のプロジェクトが意図しているであろう `Inverse` という処理を Material と ShaderGraph の `OneMinus` で書いているので `Remap` に置き換えてみます！
 
 もともとのレンダリング結果（Test.unity）
 
@@ -31,7 +31,6 @@ Asset/Posteffectの ``Invert`` を開く。左はマテリアルで、``Shader G
 
 左上の"Save Asset"を押すのが必要なのに気づかなかった…が、わかればこれは楽しい…。
 
-HDRなShaderも簡単やん
 
 ![image](https://user-images.githubusercontent.com/5110708/156341310-de29ece3-f94d-4d60-9fd2-ebb3a8c3252b.png)
 
@@ -79,9 +78,9 @@ Camera
 
 ## ShaderGraph と スクリプト について 
 
-ShaderGraph についての詳細はまたの機会にしますが、見よう見まねで作ることができそうな感じ。
+ShaderGraph についての詳細はまたの機会にしますが、冒頭に書いた通り、見よう見まねで作ることができました。
 
-左上の保存をするのを忘れずに。これはリアルタイム反映されないのかな？
+左上のボタン `Save Asset` で、保存をするのを忘れずに。これはリアルタイム反映されないのかな？
 
 
 スクリプトとしては ``UniversalAdditionalCameraData.cs`` 
