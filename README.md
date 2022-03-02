@@ -37,8 +37,8 @@ HDRなShaderも簡単やん
 ## シーンを分解してみる
 
 Camera
-- [V] Post Processing
-- [V] Dithering
+- [x] Post Processing
+- [x] Dithering
 - [ ] Ocullusion Culling (check off)
 
 ![image](https://user-images.githubusercontent.com/5110708/156348496-eed2c1fb-679c-4b67-8f08-a0fcc278a18a.png)
@@ -47,10 +47,10 @@ Camera
 
 `Profile` には ``Assets/Misc/Postprocess.asset`` がアタッチされており、
 
-- [V] Bloom
-- [V] Tonemapping
-- [V] Chromatic Aberration (色収差)
-- [V] Shadows Midtones Highlights
+- [x] Bloom
+- [x] Tonemapping
+- [x] Chromatic Aberration (色収差)
+- [x] Shadows Midtones Highlights
 
 が設定されている。
 
