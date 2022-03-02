@@ -1,5 +1,7 @@
 # SimplePostEffects
-keijiro神のURP SimplePostEffectsをみて勉強している
+[keijiro神の URP SimplePostEffects](https://github.com/kaitas/SimplePostEffects)をみて勉強している
+
+本家のリポジトリにはREADMEがなかったので、以下は独自に分解してみた解説です。
 
 ## 環境
 
