@@ -47,7 +47,7 @@ Camera
 
 カメラの下には ``Postprocess`` という名前のGameobject、``Volume`` → ``Global Volume`` で作成できる。
 
-`Profile` には ``Assets/Misc/Postprocess.asset`` がアタッチされており、
+`Profile` には ``Assets/Misc/Postprocess.asset`` がアタッチされており、これは Global Volume Processというオブジェクト。
 
 - [x] Bloom
 - [x] Tonemapping
@@ -55,6 +55,10 @@ Camera
 - [x] Shadows Midtones Highlights
 
 が設定されている。
+
+
+
+![image](https://user-images.githubusercontent.com/5110708/156351790-4c2cc289-2fa8-49e3-a80b-bdc95f3844b6.png)
 
 
 ![image](https://user-images.githubusercontent.com/5110708/156345455-c719e6a7-b765-4e7c-b555-31ba98232feb.png)
